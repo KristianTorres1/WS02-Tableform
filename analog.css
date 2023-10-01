@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+body{
+    font-size: 90%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.17em;
+    background-image: url("board.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#page{
+    max-width: 860px;
+    min-width: 860px;
+    height: 77vh;
+    margin: 10px auto 10px auto;
+    padding: 75px;
+    border: 4px double #000;
+    border-radius: 15px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    width: 250px;
+    margin: 10px auto 25px auto;
+    align-items: center;
+    margin: auto;
+}
+#logo img{
+    width: 200px;
+    height: 150px;
+    margin-top: -70px;
+    margin-bottom: -20px;
+    position: relative;
+}
+#navigation
+{
+    width: 800px;
+    padding: 15px;
+    font-weight: 600;
+    border-left: 1px solid #B68F2D;
+    border-right: 1px solid #B68F2D;
+    border-top: 3px solid #B68F2D;
+    border-bottom: 3px solid #B68F2D;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+li{
+    display: inline;
+    margin: 0px 6px;
+}
+ img{
+    width: 400px;
+    height: 430px;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    padding: 0px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+   float: left;
+   position: absolute;
+   top: 270px;
+   right: 810px;
+}
+h1 span{
+    color: #B68F2D;
+}
+.container a{
+    color: black;
+    font-size: 20px;
+}
+.container a:hover{
+   font-size: 30px;
+   background-color: #D4D2D1;
+   cursor: grab;
+}
+p{
+    text-align: center;
+    width: 680px;
+    font-family: serif;
+    font-size: 18px;
+    margin: 20px auto 20px auto;
+    font-weight: 500;
+    font-style: unset;
+}
+a{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 5px 6px 10px;
+}
+#on{
+    color: black;
+    background-color: white;
+    font-style: italic;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a:hover{
+    background-color:white;
+    font-style: italic;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#text p{
+    margin-top: 40px;
+    color: black;
+    font-weight: 550;
+    font-size: 20px;
+}
